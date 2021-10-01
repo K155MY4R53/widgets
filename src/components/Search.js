@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
+//This comment is an example of a change to the code
+
 const Search = () => {
     const [term, setTerm] = useState("frog");
     const [debouncedTerm, setDebouncedTerm] = useState(term);
